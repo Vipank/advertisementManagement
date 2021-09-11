@@ -1,0 +1,4 @@
+.mainCont {
+    height:calc(100% - 60px);
+    width: calc(100% - 24px)
+}

@@ -1,0 +1,23 @@
+.body {
+    background-color: #2C3668;
+    height: 73px;
+    border-radius: 12px;
+}
+
+.logo {
+    background-color: #C4C4C4;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.companyName {
+    color : #FFFFFF;
+    font-size: 20px
+}
+
+.userType {
+    color: #E5E5E5;
+    font-size: 13px;
+    margin-left: 5px;
+}

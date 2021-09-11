@@ -1,38 +1,63 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(244, 245, 247);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.makeFlex {
+  display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flexEnd {
+  justify-content: flex-end;
+  align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flexColumn {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.centeredFlexColumn {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+}
+.centeredFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.sbFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.LeftTopFlexColumn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+
+.LeftCenteredFlexColumn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pd12 {
+  padding: 12px;
+}
+.pdt0 {
+  padding-top: 0px;
+}
+.pdl30t15 {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.btnRounded {
+  border-radius: 24px;
 }

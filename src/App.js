@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import {ThemeProvider } from '@material-ui/core/styles';
 import './App.css';
+import theme from './themes/theme';
+import Sidebar from './components/Sidebar/Sidebar';
+import classNames from 'classnames';
+import Appbar from './components/Appbar/Appbar';
+import Main from './components/Main/Main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className = {classNames("makeFlex","App")}>
+        <Sidebar/>
+        <div className={classNames("flexColumn")}>
+          <Appbar/>
+          <Main/>
+        </div>
+      </div>
+    </ThemeProvider>
   );
 }
 

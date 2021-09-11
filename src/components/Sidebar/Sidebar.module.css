@@ -1,0 +1,25 @@
+.bodycont {
+	background-color: #111c56;
+	width: 276px;
+	height: calc(100% - 24px);
+	overflow-y: scroll;
+	padding: 12px;
+}
+
+.navItems {
+	/* background-color: #4c5068; */
+	/* font-weight: bolder; */
+    height: 24px;
+	border-radius: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.navItems:hover{
+    background-color: #4c5068;
+	font-weight: bolder;
+}
+
+.navItems:active {
+	transform: translateY(2px);
+}
