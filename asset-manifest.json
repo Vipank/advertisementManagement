@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/advertisementManagement/static/css/main.5d7354df.chunk.css",
+    "main.js": "/advertisementManagement/static/js/main.2dbfe127.chunk.js",
+    "main.js.map": "/advertisementManagement/static/js/main.2dbfe127.chunk.js.map",
+    "runtime-main.js": "/advertisementManagement/static/js/runtime-main.123cbecf.js",
+    "runtime-main.js.map": "/advertisementManagement/static/js/runtime-main.123cbecf.js.map",
+    "static/js/2.960eb5c7.chunk.js": "/advertisementManagement/static/js/2.960eb5c7.chunk.js",
+    "static/js/2.960eb5c7.chunk.js.map": "/advertisementManagement/static/js/2.960eb5c7.chunk.js.map",
+    "static/js/3.e29cc84f.chunk.js": "/advertisementManagement/static/js/3.e29cc84f.chunk.js",
+    "static/js/3.e29cc84f.chunk.js.map": "/advertisementManagement/static/js/3.e29cc84f.chunk.js.map",
+    "index.html": "/advertisementManagement/index.html",
+    "static/css/main.5d7354df.chunk.css.map": "/advertisementManagement/static/css/main.5d7354df.chunk.css.map",
+    "static/js/2.960eb5c7.chunk.js.LICENSE.txt": "/advertisementManagement/static/js/2.960eb5c7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.123cbecf.js",
+    "static/js/2.960eb5c7.chunk.js",
+    "static/css/main.5d7354df.chunk.css",
+    "static/js/main.2dbfe127.chunk.js"
+  ]
+}
